@@ -1,4 +1,5 @@
-import { SingInButton } from '../SingInButton'
+/* eslint-disable @next/next/no-img-element */
+import { SignInButton } from '../SignInButton'
 import { ActiveLink } from '../ActiveLink'
 
 import styles from './styles.module.scss'
@@ -34,7 +35,7 @@ export function Header () {
 
         </nav>
 
-        <SingInButton />
+        <SignInButton />
 
       </div>
 
